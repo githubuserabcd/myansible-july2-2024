@@ -8,4 +8,9 @@
     copy:
       src: mycopyfile.yml
       dest: /home/maha/mycopyfile.yml
+
+  - name: install webserver
+    apt: 
+      name: apache2
+      state: present 
       
