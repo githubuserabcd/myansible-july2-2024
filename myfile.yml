@@ -1,0 +1,5 @@
+---
+  - name: crete afile
+    file: 
+      path: /home/maha/myfistfile
+      state: touch 
