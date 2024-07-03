@@ -13,4 +13,8 @@
     apt: 
       name: apache2
       state: present 
-      
+
+  - name: copy index file into node 
+    template: 
+      src: myindexfile.j2
+      dest: /home/maha/myindexfile.j2
